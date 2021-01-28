@@ -72,7 +72,7 @@ order by ss.sem, ss.sec;
 create view stud_test1 as
 	select s.usn, ia.test1
 	from student s, iamarks ia
-	where s.usn = ia.usn and s.usn = '1mv18cs099';
+	where s.usn = ia.usn and s.usn = '1mv18cs004';
 
 update iamarks
 	set finalia = ((test1+test2+test3)-(case
